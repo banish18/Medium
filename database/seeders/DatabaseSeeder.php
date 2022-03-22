@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
         \App\Models\User::truncate();
         \App\Models\Post::truncate();
         \App\Models\Tag::truncate();
-        \App\Models\User::factory(2)->create();
+        \App\Models\User::factory(1)->create();
         \App\Models\Tag::factory(1)->create();
         \App\Models\Post::factory(10)->create();
        
