@@ -15,6 +15,7 @@ Following are the instructions to setup the application on server
  - Run composer install command
  - rename .env-example file to .env
  - setup your db configuration in the .env file
+ - run php artisan key:generate (it will generate key)
  - run php artisan migrate command (It will create required tables in your database)
  - run php artisan db:seed command(It will insert dummy data in the tables)
  - run php artisan serve command to run your application
