@@ -1,5 +1,5 @@
-This application has two sections admin section and frontend section. 
- - Admin Section
+This application is build in laravel framework. It has two sections admin section and frontend section. 
+ - Admin Section Feature
    - Admin can manage tags
    - Admin can manage posts
 
@@ -10,8 +10,9 @@ Fronted section
  - There are tag page to list related tags posts.
 
 
-Following are the instructions to setup the application on server
- - Clone the repository on your server
+Following are the instructions to setup the application on server : - 
+
+ - Clone / download the zip file from the repository on your server
  - Run composer install command
  - rename .env-example file to .env
  - setup your db configuration in the .env file
@@ -22,5 +23,5 @@ Following are the instructions to setup the application on server
 
 To access admin panel use the follwoing Url and credentials - 
     Url - http://localhost:8000/login
-     username - admin@admin.com
+     username - admin@example.com
      password - password
