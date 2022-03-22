@@ -1,12 +1,12 @@
 This application has two sections admin section and frontend section. 
  - Admin Section
    - Admin can manage tags
-   - Admin can manages posts
+   - Admin can manage posts
 
 Fronted section
  - Posts are showing in the home page
  - Tags are also list in the home page
- - There are single post page to dispay post content
+ - There are single post page to display post content
  - There are tag page to list related tags posts.
 
 
