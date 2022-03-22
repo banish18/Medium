@@ -17,7 +17,7 @@ class PostFactory extends Factory
         'title' => $this->faker->text,
         'user_id' => 1,
         'slug' => $this->faker->slug,
-        'tags' => 'DummyTag',
+        'tags' => '1',
         'image' => json_encode(array('dummy.png')),
         'description' => $this->faker->paragraph
     ];
