@@ -10,6 +10,25 @@ Fronted section
  - There are tag page to list related tags posts.
 
 
+Server Requirements
+
+The Laravel framework has a few system requirements. You should ensure that your web server has the following minimum PHP version and extensions:
+
+    PHP >= 8.0
+    BCMath PHP Extension
+    Ctype PHP Extension
+    cURL PHP Extension
+    DOM PHP Extension
+    Fileinfo PHP Extension
+    JSON PHP Extension
+    Mbstring PHP Extension
+    OpenSSL PHP Extension
+    PCRE PHP Extension
+    PDO PHP Extension
+    Tokenizer PHP Extension
+    XML PHP Extension
+
+
 Following are the instructions to setup the application on server : - 
 
  - Clone / download the zip file from the repository on your server
