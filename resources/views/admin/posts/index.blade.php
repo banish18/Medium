@@ -23,7 +23,7 @@
             <th>No</th>
             <th>Title</th>
             <th>Description</th>
-            <th>Tags</th>
+            <th>Tag ID</th>
             <th>Image</th>
             <th width="280px">Action</th>
         </tr>
