@@ -33,26 +33,26 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Title:</strong>
-                    <input type="text" name="title" value="{{ $post->title }}" class="form-control" placeholder="Title">
+                    <input type="text" name="title" value="{{ $post->title }}" class="form-control" placeholder="Title" required>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Description:</strong>
-                    <textarea class="form-control" style="height:150px" name="description" placeholder="Detail">{{ $post->description }}</textarea>
+                    <textarea class="form-control" style="height:150px" name="description" placeholder="Detail" required>{{ $post->description }}</textarea>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Slug:</strong>
-                <input type="text" name="slug" value="{{ $post->slug }}" class="form-control" placeholder="Enter Slug">
+                <input type="text" name="slug" value="{{ $post->slug }}" class="form-control" placeholder="Enter Slug" required>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Tags:</strong>
                
-                <select class="form-control" name="tags">
+                <select class="form-control" name="tags" required>
                     <option value="">Select Tag</option>
 
                     @foreach($tags as $tag)
