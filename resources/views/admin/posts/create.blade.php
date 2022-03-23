@@ -31,25 +31,25 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Title:</strong>
-                <input type="text" name="title" class="form-control" placeholder="Enter Title">
+                <input type="text" name="title" class="form-control" placeholder="Enter Title" required>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Description:</strong>
-                <textarea class="form-control" style="height:150px" name="description" placeholder="Enter Description"></textarea>
+                <textarea class="form-control" style="height:150px" name="description" placeholder="Enter Description" required></textarea>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Slug:</strong>
-                <input type="text" name="slug" class="form-control" placeholder="Enter Slug">
+                <input type="text" name="slug" class="form-control" placeholder="Enter Slug" required>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Tags:</strong>
-                <select class="form-control">
+                <select class="form-control" name="tags" required>
                     <option value="">Select Tag</option>
                     @foreach($tags as $tag)
                          <option value="{{$tag->id}}">{{$tag->name}}</option>
