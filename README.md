@@ -31,7 +31,7 @@ The Laravel framework has a few system requirements. You should ensure that your
 
 Following are the instructions to setup the application on server : - 
 
- - Clone / download the zip file from the repository on your server
+ - Clone / download the zip file from the repository on your server and unzip the code in your server. Run the following commands in your folder root directory - 
  - Run command - composer install 
  - rename .env.example file to .env
  - setup your db configuration in the .env file
