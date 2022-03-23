@@ -23,5 +23,7 @@ Following are the instructions to setup the application on server : -
 
 To access admin panel use the follwoing Url and credentials - 
     Url - http://localhost:8000/login
-     username - admin@example.com
+     username - admin@admin.com
      password - password
+     
+ Demo - https://www.awesomescreenshot.com/video/8028226?key=c17f9768b97a681a910243063b1a78d0
