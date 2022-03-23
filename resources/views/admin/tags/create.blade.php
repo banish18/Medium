@@ -31,13 +31,13 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Name:</strong>
-                <input type="text" name="name" class="form-control" placeholder="Enter Name">
+                <input type="text" name="name" class="form-control" placeholder="Enter Name" required>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Description:</strong>
-                <textarea class="form-control" style="height:150px" name="description" placeholder="Enter Description"></textarea>
+                <textarea class="form-control" style="height:150px" name="description" placeholder="Enter Description" required></textarea>
             </div>
         </div>
         
