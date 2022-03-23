@@ -51,6 +51,9 @@
                         
                         <div class="collapse navbar-toggleable-sm" id="tmNavbar">
                             <ul class="nav navbar-nav">
+                             <li class="nav-item">
+                                    <a href="/posts" class="nav-link">Admin Panel</a>
+                                </li>
                                 <li class="nav-item active">
                                     <a href="/" class="nav-link">Home</a>
                                 </li>
