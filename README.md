@@ -41,10 +41,14 @@ Following are the instructions to setup the application on server : -
  - run command - php artisan serve ( to run the application )
 
 To access admin panel use the follwoing Url and credentials - 
+
  if you are using this applicaiton on local xampp server then use the follwoing - 
+ 
     Url - http://localhost:8000/login
+    
      username - admin@admin.com
      password - password
+     
  if you are using this applicaiton on live server then use your server IP or Domain name on the place of localhost.   
      
  Demo - https://www.awesomescreenshot.com/video/8028226?key=c17f9768b97a681a910243063b1a78d0
